@@ -12,4 +12,5 @@ export async function isAuthorizedAndHasBalance(
     userAddress,
     Addresses.MarketplaceProxy
   )
+   return authorized
 }
